@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-'''Cooordinatem Convolutional ResNet50 model for Keras.
+'''CCResNet101 model for Keras.
 
 '''
 from __future__ import print_function
@@ -36,8 +36,8 @@ from keras.layers import *
 import tensorflow as tf
 
 
-WEIGHTS_PATH = 'https://github.com/fchollet/deep-learning-models/releases/download/v0.2/resnet50_weights_tf_dim_ordering_tf_kernels.h5'
-WEIGHTS_PATH_NO_TOP = 'https://github.com/fchollet/deep-learning-models/releases/download/v0.2/resnet50_weights_tf_dim_ordering_tf_kernels_notop.h5'
+WEIGHTS_PATH = 'https://github.com/amuthalingeswaranbose/model/releases/download/untagged-56331866ff5d418a429c/ResNetCoordConv_40.h5'
+WEIGHTS_PATH_NO_TOP = 'https://github.com/amuthalingeswaranbose/model/releases/download/untagged-56331866ff5d418a429c/ResNetCoordConv_40.h5'
 
 ############################################################
 #  Coordinate Convolution Functions
