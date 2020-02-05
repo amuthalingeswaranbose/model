@@ -36,8 +36,8 @@ from keras.layers import *
 import tensorflow as tf
 
 
-WEIGHTS_PATH = 'https://github.com/amuthalingeswaranbose/model/releases/download/untagged-56331866ff5d418a429c/ResNetCoordConv_40.h5'
-WEIGHTS_PATH_NO_TOP = 'https://github.com/amuthalingeswaranbose/model/releases/download/untagged-56331866ff5d418a429c/ResNetCoordConv_40.h5'
+WEIGHTS_PATH = 'https://github.com/amuthalingeswaranbose/model/releases/download/model/ResNetCoordConv_40.h5'
+WEIGHTS_PATH_NO_TOP = 'https://github.com/amuthalingeswaranbose/model/releases/download/model/ResNetCoordConv_40.h5'
 
 ############################################################
 #  Coordinate Convolution Functions
